@@ -4,7 +4,7 @@ const data = [
         id :1,
         date : "1995",
         title : "Born" , 
-        img :"assets/1.jpg" ,
+        img :"https://png.pngtree.com/png-clipart/20190327/ourmid/pngtree-hand-painted-cartoon-baby-baby-png-image_874802.jpg" ,
         details :" I was borne 👶🏻"
     },
     
@@ -12,7 +12,7 @@ const data = [
         id :2,
         date : "2016-2020",
         title : "king saud university" , 
-        img :"" ,
+        img :"https://png.pngtree.com/png-clipart/20190604/original/pngtree-graduation-girl-graduation-season-cartoon-pictures-png-image_936726.jpg" ,
         details :"i had fun in university 🎓"
     },
 
@@ -28,7 +28,7 @@ const data = [
         id :4,
         date : "2020-2021",
         title : "Coded" , 
-        img :"assets/1.jpg" ,
+        img :"https://pbs.twimg.com/profile_images/755330411769786368/geg3pV5z.jpg" ,
         details :"I decided to learn programming with CODED"
     },
 

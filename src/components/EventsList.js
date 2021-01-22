@@ -5,12 +5,12 @@ const EventsList  = ()=>{
     const eventsList = data.map((dt) => 
         <Events key = {dt.id} event={dt}/>);
         return (
-            <div class="timeline-inverted">
-                <div class="timeline-image">
+            <div >
+                <li class="timeline-inverted">
+              
 
                 {eventsList}
-
-                </div>
+                </li>
                   
             </div>
         );

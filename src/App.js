@@ -1,9 +1,8 @@
 
 import './App.css';
-import Header from "./components/Header";
 import Introduction from "./components/Introduction";
+import Header from "./components/Header";
 import EventsList from "./components/EventsList";
-
 
 
 function App() {
@@ -13,10 +12,13 @@ function App() {
     <body id="page-top">
         <section class="page-section" id="about">
             <div class="container">
-                 <Introduction/>
-                <ul class="timeline">
-                    <EventsList/>
-                    <li class="timeline-inverted">
+              <Introduction/>
+              
+                <div class="timeline">
+                  <li class="timeline-inverted">
+                   <EventsList/>
+                  </li>
+                  <li class="timeline-inverted">
                         <div class="timeline-image">
                             <h4>
                                 Be Part
@@ -26,8 +28,14 @@ function App() {
                                 Story!
                             </h4>
                         </div>
-                    </li>
-                </ul>
+                  </li>
+
+                </div> 
+
+
+
+
+
             </div>
         </section>
     </body>
